@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
-| Date             : Mon Nov 20 21:04:19 2017
+| Date             : Tue Nov 21 23:44:18 2017
 | Host             : LAPTOP-OE4TGRGL running 64-bit major release  (build 9200)
 | Command          : report_power -file MainCPU_power_routed.rpt -pb MainCPU_power_summary_routed.pb -rpx MainCPU_power_routed.rpx
 | Design           : MainCPU
@@ -30,10 +30,10 @@ Table of Contents
 ----------
 
 +--------------------------+----------------------------------+
-| Total On-Chip Power (W)  | 93.295 (Junction temp exceeded!) |
+| Total On-Chip Power (W)  | 94.009 (Junction temp exceeded!) |
 | Design Power Budget (W)  | Unspecified*                     |
 | Power Budget Margin (W)  | NA                               |
-| Dynamic (W)              | 92.809                           |
+| Dynamic (W)              | 93.523                           |
 | Device Static (W)        | 0.486                            |
 | Effective TJA (C/W)      | 5.0                              |
 | Max Ambient (C)          | 0.0                              |
@@ -52,17 +52,17 @@ Table of Contents
 +----------------+-----------+----------+-----------+-----------------+
 | On-Chip        | Power (W) | Used     | Available | Utilization (%) |
 +----------------+-----------+----------+-----------+-----------------+
-| Slice Logic    |    29.595 |     4317 |       --- |             --- |
-|   LUT as Logic |    28.482 |     1962 |     20800 |            9.43 |
-|   F7/F8 Muxes  |     0.920 |      627 |     32600 |            1.92 |
-|   CARRY4       |     0.148 |       29 |      8150 |            0.36 |
-|   Register     |     0.032 |     1514 |     41600 |            3.64 |
+| Slice Logic    |    29.739 |     4541 |       --- |             --- |
+|   LUT as Logic |    28.530 |     2119 |     20800 |           10.19 |
+|   F7/F8 Muxes  |     0.919 |      626 |     32600 |            1.92 |
+|   CARRY4       |     0.234 |       49 |      8150 |            0.60 |
+|   Register     |     0.044 |     1538 |     41600 |            3.70 |
 |   BUFG         |     0.012 |        2 |        32 |            6.25 |
 |   Others       |     0.000 |       12 |       --- |             --- |
-| Signals        |    37.128 |     3104 |       --- |             --- |
-| I/O            |    26.086 |       17 |       106 |           16.04 |
+| Signals        |    37.767 |     3319 |       --- |             --- |
+| I/O            |    26.018 |       17 |       106 |           16.04 |
 | Static Power   |     0.486 |          |           |                 |
-| Total          |    93.295 |          |           |                 |
+| Total          |    94.009 |          |           |                 |
 +----------------+-----------+----------+-----------+-----------------+
 
 
@@ -72,9 +72,9 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) |
 +-----------+-------------+-----------+-------------+------------+
-| Vccint    |       1.000 |    67.080 |      66.739 |      0.341 |
-| Vccaux    |       1.800 |     1.009 |       0.955 |      0.053 |
-| Vcco33    |       3.300 |     7.380 |       7.379 |      0.001 |
+| Vccint    |       1.000 |    67.862 |      67.522 |      0.341 |
+| Vccaux    |       1.800 |     1.006 |       0.953 |      0.053 |
+| Vcco33    |       3.300 |     7.361 |       7.360 |      0.001 |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |
 | Vcco18    |       1.800 |     0.000 |       0.000 |      0.000 |
 | Vcco15    |       1.500 |     0.000 |       0.000 |      0.000 |
@@ -139,16 +139,16 @@ Table of Contents
 +------------------+-----------+
 | Name             | Power (W) |
 +------------------+-----------+
-| MainCPU          |    92.809 |
-|   myCPU          |    66.128 |
+| MainCPU          |    93.523 |
+|   myCPU          |    66.848 |
 |     alu          |     0.207 |
-|     data         |     9.909 |
-|     next         |     0.099 |
-|     pc           |    39.447 |
-|     registerfile |    16.467 |
-|   myclock        |     0.061 |
+|     data         |    11.473 |
+|     next         |     0.497 |
+|     pc           |    40.580 |
+|     registerfile |    14.092 |
+|   myclock        |     0.063 |
 |   mykey          |     0.004 |
-|   mymux          |     0.342 |
+|   mymux          |     0.402 |
 +------------------+-----------+
 
 

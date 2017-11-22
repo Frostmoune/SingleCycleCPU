@@ -26,18 +26,17 @@ input WE,CLK,Reset;
 input [31:0] WriteData;
 output [31:0] ReadData1,ReadData2;
 
-reg [31:0] Register[0:31];
 integer i;
-
+reg [31:0] Register[0:31];
 initial begin
-for(i=1;i<32;i=i+1)
+for(i=0;i<32;i=i+1)
     Register[i]=0;
 end
 
 assign ReadData1=Register[ReadReg1];
 assign ReadData2=Register[ReadReg2];
 
-always @(posedge CLK or negedge Reset)
+always @(negedge CLK)
 begin
     if(Reset==0)begin
         Register[0]<=0;

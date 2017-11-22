@@ -27,8 +27,8 @@ output reg [31:0] Out;
 
 always @(PC or InAddress) 
 begin
-    Out=PC;
-    Out[27:2]=InAddress;
+    Out[31:28]=PC[31:28];
+    Out[27:2]=(InAddress>>2);
     Out[1:0]=0;
 end
 

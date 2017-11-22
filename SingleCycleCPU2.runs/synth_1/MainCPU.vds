@@ -2,8 +2,8 @@
 # Vivado v2017.3 (64-bit)
 # SW Build 2018833 on Wed Oct  4 19:58:22 MDT 2017
 # IP Build 2016188 on Wed Oct  4 21:52:56 MDT 2017
-# Start of session at: Mon Nov 20 21:00:29 2017
-# Process ID: 7720
+# Start of session at: Tue Nov 21 23:40:36 2017
+# Process ID: 11156
 # Current directory: E:/CPU/SingleCycleCPU2/SingleCycleCPU2.runs/synth_1
 # Command line: vivado.exe -log MainCPU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MainCPU.tcl
 # Log file: E:/CPU/SingleCycleCPU2/SingleCycleCPU2.runs/synth_1/MainCPU.vds
@@ -15,9 +15,9 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 12008 
+INFO: Helper process launched with PID 8852 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 345.566 ; gain = 95.945
+Starting RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 345.613 ; gain = 95.512
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-638] synthesizing module 'MainCPU' [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/MainCPU.v:23]
 INFO: [Synth 8-638] synthesizing module 'CLOCK' [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/CLOCK.v:23]
@@ -35,42 +35,11 @@ INFO: [Synth 8-256] done synthesizing module 'ControlUnit' (5#1) [E:/CPU/SingleC
 INFO: [Synth 8-638] synthesizing module 'Select5' [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Select5.v:23]
 INFO: [Synth 8-256] done synthesizing module 'Select5' (6#1) [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Select5.v:23]
 INFO: [Synth 8-638] synthesizing module 'RegisterFile' [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:23]
-WARNING: [Synth 8-5788] Register Register_reg[1] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[2] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[3] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[4] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[5] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[6] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[7] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[8] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[9] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[10] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[11] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[12] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[13] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[14] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[15] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[16] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[17] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[18] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[19] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[20] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[21] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[22] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[23] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[24] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[25] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[26] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[27] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[28] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[29] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[30] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
-WARNING: [Synth 8-5788] Register Register_reg[31] in module RegisterFile is has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:37]
 INFO: [Synth 8-256] done synthesizing module 'RegisterFile' (7#1) [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/RegisterFile.v:23]
-INFO: [Synth 8-638] synthesizing module 'Extend_Sa' [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ExtendSa.v:23]
-INFO: [Synth 8-256] done synthesizing module 'Extend_Sa' (8#1) [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ExtendSa.v:23]
 INFO: [Synth 8-638] synthesizing module 'Select32' [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Select32.v:23]
-INFO: [Synth 8-256] done synthesizing module 'Select32' (9#1) [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Select32.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Select32' (8#1) [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/Select32.v:23]
+INFO: [Synth 8-638] synthesizing module 'Extend_Sa' [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ExtendSa.v:23]
+INFO: [Synth 8-256] done synthesizing module 'Extend_Sa' (9#1) [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ExtendSa.v:23]
 INFO: [Synth 8-638] synthesizing module 'SignZeroExtend' [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/SignZeroExtend.v:23]
 INFO: [Synth 8-256] done synthesizing module 'SignZeroExtend' (10#1) [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/SignZeroExtend.v:23]
 INFO: [Synth 8-638] synthesizing module 'ALU' [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/ALU.v:23]
@@ -162,7 +131,7 @@ WARNING: [Synth 8-3331] design InstructionMemory has unconnected port IDataIn[2]
 WARNING: [Synth 8-3331] design InstructionMemory has unconnected port IDataIn[1]
 WARNING: [Synth 8-3331] design InstructionMemory has unconnected port IDataIn[0]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 392.656 ; gain = 143.035
+Finished RTL Elaboration : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 392.703 ; gain = 142.602
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -172,7 +141,7 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 392.656 ; gain = 143.035
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:14 . Memory (MB): peak = 392.703 ; gain = 142.602
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
@@ -191,29 +160,29 @@ Completed Processing XDC Constraints
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 706.668 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 705.691 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 706.668 ; gain = 457.047
+Finished Constraint Validation : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 705.691 ; gain = 455.590
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 706.668 ; gain = 457.047
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 705.691 ; gain = 455.590
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:30 . Memory (MB): peak = 706.668 ; gain = 457.047
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:37 . Memory (MB): peak = 705.691 ; gain = 455.590
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-6014] Unused sequential element wires_reg was removed.  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/CLOCK.v:35]
 INFO: [Synth 8-5546] ROM "PCWre" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "ALUSrcA" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "DBDataSrc" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RD" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "WR" won't be mapped to RAM because it is too sparse
-INFO: [Synth 8-5546] ROM "PCSrc0" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "Register_reg[0]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "Register_reg[1]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5546] ROM "Register_reg[2]" won't be mapped to RAM because it is too sparse
@@ -248,7 +217,7 @@ INFO: [Synth 8-5546] ROM "Register_reg[30]" won't be mapped to RAM because it is
 INFO: [Synth 8-5546] ROM "Register_reg[31]" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5545] ROM "Zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:32 . Memory (MB): peak = 706.668 ; gain = 457.047
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:31 ; elapsed = 00:00:40 . Memory (MB): peak = 705.691 ; gain = 455.590
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -268,18 +237,18 @@ Detailed RTL Component Info :
 +---XORs : 
 	   2 Input     32 Bit         XORs := 1     
 +---Registers : 
-	               32 Bit    Registers := 33    
+	               32 Bit    Registers := 1     
 	                2 Bit    Registers := 1     
 	                1 Bit    Registers := 1     
 +---Muxes : 
-	   2 Input     32 Bit        Muxes := 3     
+	   2 Input     32 Bit        Muxes := 5     
 	   4 Input     32 Bit        Muxes := 1     
 	   4 Input     16 Bit        Muxes := 1     
 	   4 Input      8 Bit        Muxes := 35    
 	   2 Input      8 Bit        Muxes := 57    
 	   2 Input      5 Bit        Muxes := 1     
 	   4 Input      4 Bit        Muxes := 1     
-	   2 Input      2 Bit        Muxes := 10    
+	   2 Input      2 Bit        Muxes := 8     
 	   4 Input      2 Bit        Muxes := 4     
 	   2 Input      1 Bit        Muxes := 88    
 	   5 Input      1 Bit        Muxes := 46    
@@ -306,15 +275,13 @@ Detailed RTL Component Info :
 Module ControlUnit 
 Detailed RTL Component Info : 
 +---Muxes : 
-	   2 Input      2 Bit        Muxes := 9     
+	   2 Input      2 Bit        Muxes := 7     
 Module Select5 
 Detailed RTL Component Info : 
 +---Muxes : 
 	   2 Input      5 Bit        Muxes := 1     
 Module RegisterFile 
 Detailed RTL Component Info : 
-+---Registers : 
-	               32 Bit    Registers := 32    
 +---Muxes : 
 	   2 Input      1 Bit        Muxes := 32    
 Module Select32 
@@ -337,6 +304,7 @@ Detailed RTL Component Info :
 	   2 Input     32 Bit       Adders := 2     
 +---Muxes : 
 	   4 Input     32 Bit        Muxes := 1     
+	   2 Input     32 Bit        Muxes := 1     
 Module DataMemory 
 Detailed RTL Component Info : 
 +---Muxes : 
@@ -374,6 +342,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-5545] ROM "myCPU/alu/Zero" won't be mapped to RAM because address size (32) is larger than maximum supported(25)
+WARNING: [Synth 8-6014] Unused sequential element myCPU/pc/IAddr_reg was removed.  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/PC.v:35]
 WARNING: [Synth 8-6014] Unused sequential element myclock/wires_reg was removed.  [E:/CPU/SingleCycleCPU2/SingleCycleCPU2.srcs/sources_1/new/CLOCK.v:35]
 WARNING: [Synth 8-3917] design MainCPU has port dp driven by constant 1
 WARNING: [Synth 8-3331] design DataMemory has unconnected port DAddr[31]
@@ -411,30 +380,6 @@ WARNING: [Synth 8-3332] Sequential element (myclock/wires_reg[22]) is unused and
 WARNING: [Synth 8-3332] Sequential element (myclock/wires_reg[23]) is unused and will be removed from module MainCPU.
 WARNING: [Synth 8-3332] Sequential element (myclock/wires_reg[24]) is unused and will be removed from module MainCPU.
 WARNING: [Synth 8-3332] Sequential element (myclock/wires_reg[25]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[31]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[30]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[29]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[28]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[27]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[26]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[25]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[24]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[23]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[22]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[21]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[20]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[19]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[18]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[17]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[16]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[15]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[14]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[13]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[12]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[11]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[10]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[9]) is unused and will be removed from module MainCPU.
-WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[8]) is unused and will be removed from module MainCPU.
 WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg[0]) is unused and will be removed from module MainCPU.
 WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg_rep[31]) is unused and will be removed from module MainCPU.
 WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg_rep[30]) is unused and will be removed from module MainCPU.
@@ -463,37 +408,37 @@ WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg_rep[8]) is unused
 WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg_rep[7]) is unused and will be removed from module MainCPU.
 WARNING: [Synth 8-3332] Sequential element (myCPU/pc/IAddr_reg_rep[0]) is unused and will be removed from module MainCPU.
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][19] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][16] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][18] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][20] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][13] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][29] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][10] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][26] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][6] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][9] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][17] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][28] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][12] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][14] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][5] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][21] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][15] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][7] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][11] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][24] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][30] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][8] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][23] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][22] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][25] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][26] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][16] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][17] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][15] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][29] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][8] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][24] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][13] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][12] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][10] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][27] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][14] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][28] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][9] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][11] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][30] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][31] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][18] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][23] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][2] )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][4] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][0] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][1] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][2] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][3] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][4] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][5] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][6] )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\myCPU/registerfile/Register_reg[0][7] )
 WARNING: [Synth 8-3332] Sequential element (myCPU/registerfile/Register_reg[0][31]) is unused and will be removed from module MainCPU.
 WARNING: [Synth 8-3332] Sequential element (myCPU/registerfile/Register_reg[0][30]) is unused and will be removed from module MainCPU.
 WARNING: [Synth 8-3332] Sequential element (myCPU/registerfile/Register_reg[0][29]) is unused and will be removed from module MainCPU.
@@ -527,7 +472,7 @@ WARNING: [Synth 8-3332] Sequential element (myCPU/registerfile/Register_reg[0][2
 WARNING: [Synth 8-3332] Sequential element (myCPU/registerfile/Register_reg[0][1]) is unused and will be removed from module MainCPU.
 WARNING: [Synth 8-3332] Sequential element (myCPU/registerfile/Register_reg[0][0]) is unused and will be removed from module MainCPU.
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:40 ; elapsed = 00:01:41 . Memory (MB): peak = 709.445 ; gain = 459.824
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:01:11 ; elapsed = 00:01:20 . Memory (MB): peak = 724.395 ; gain = 474.293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -560,13 +505,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:54 ; elapsed = 00:01:56 . Memory (MB): peak = 719.277 ; gain = 469.656
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:01:26 ; elapsed = 00:01:35 . Memory (MB): peak = 724.395 ; gain = 474.293
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:01:55 ; elapsed = 00:01:57 . Memory (MB): peak = 721.281 ; gain = 471.660
+Finished Timing Optimization : Time (s): cpu = 00:01:27 ; elapsed = 00:01:36 . Memory (MB): peak = 724.395 ; gain = 474.293
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -578,7 +523,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:01:58 ; elapsed = 00:01:59 . Memory (MB): peak = 777.391 ; gain = 527.770
+Finished Technology Mapping : Time (s): cpu = 00:01:30 ; elapsed = 00:01:39 . Memory (MB): peak = 780.316 ; gain = 530.215
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -602,7 +547,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:00 ; elapsed = 00:02:01 . Memory (MB): peak = 777.391 ; gain = 527.770
+Finished IO Insertion : Time (s): cpu = 00:01:32 ; elapsed = 00:01:41 . Memory (MB): peak = 780.316 ; gain = 530.215
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -615,7 +560,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:00 ; elapsed = 00:02:01 . Memory (MB): peak = 777.391 ; gain = 527.770
+Finished Renaming Generated Instances : Time (s): cpu = 00:01:32 ; elapsed = 00:01:41 . Memory (MB): peak = 780.316 ; gain = 530.215
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -627,25 +572,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:00 ; elapsed = 00:02:01 . Memory (MB): peak = 777.391 ; gain = 527.770
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:01:32 ; elapsed = 00:01:41 . Memory (MB): peak = 780.316 ; gain = 530.215
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:00 ; elapsed = 00:02:02 . Memory (MB): peak = 777.391 ; gain = 527.770
+Finished Renaming Generated Ports : Time (s): cpu = 00:01:32 ; elapsed = 00:01:41 . Memory (MB): peak = 780.316 ; gain = 530.215
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:00 ; elapsed = 00:02:02 . Memory (MB): peak = 777.391 ; gain = 527.770
+Finished Handling Custom Attributes : Time (s): cpu = 00:01:32 ; elapsed = 00:01:41 . Memory (MB): peak = 780.316 ; gain = 530.215
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:00 ; elapsed = 00:02:02 . Memory (MB): peak = 777.391 ; gain = 527.770
+Finished Renaming Generated Nets : Time (s): cpu = 00:01:32 ; elapsed = 00:01:41 . Memory (MB): peak = 780.316 ; gain = 530.215
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -662,44 +607,45 @@ Report Cell Usage:
 |      |Cell   |Count |
 +------+-------+------+
 |1     |BUFG   |     2|
-|2     |CARRY4 |    29|
+|2     |CARRY4 |    49|
 |3     |LUT1   |    34|
-|4     |LUT2   |    68|
-|5     |LUT3   |   118|
-|6     |LUT4   |   132|
-|7     |LUT5   |   412|
-|8     |LUT6   |  1414|
+|4     |LUT2   |    80|
+|5     |LUT3   |   171|
+|6     |LUT4   |   110|
+|7     |LUT5   |   454|
+|8     |LUT6   |  1476|
 |9     |MUXF7  |   482|
-|10    |MUXF8  |   162|
-|11    |FDCE   |    33|
-|12    |FDRE   |  1481|
-|13    |IBUF   |     5|
-|14    |OBUF   |    12|
+|10    |MUXF8  |   161|
+|11    |FDCE   |    22|
+|12    |FDPE   |    35|
+|13    |FDRE   |  1481|
+|14    |IBUF   |     5|
+|15    |OBUF   |    12|
 +------+-------+------+
 
 Report Instance Areas: 
 +------+-----------------+---------------+------+
 |      |Instance         |Module         |Cells |
 +------+-----------------+---------------+------+
-|1     |top              |               |  4384|
-|2     |  myCPU          |SingleCycleCPU |  4321|
+|1     |top              |               |  4574|
+|2     |  myCPU          |SingleCycleCPU |  4511|
 |3     |    alu          |ALU            |    12|
 |4     |    data         |DataMemory     |  1352|
-|5     |    next         |NextPC         |     4|
-|6     |    pc           |PC             |   833|
-|7     |    registerfile |RegisterFile   |  2119|
-|8     |  myclock        |CLOCK          |    25|
+|5     |    next         |NextPC         |    22|
+|6     |    pc           |PC             |  1028|
+|7     |    registerfile |RegisterFile   |  2097|
+|8     |  myclock        |CLOCK          |    24|
 |9     |  mykey          |KeyOn          |     2|
-|10    |  mymux          |MUX            |    16|
+|10    |  mymux          |MUX            |    17|
 +------+-----------------+---------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:00 ; elapsed = 00:02:02 . Memory (MB): peak = 777.391 ; gain = 527.770
+Finished Writing Synthesis Report : Time (s): cpu = 00:01:32 ; elapsed = 00:01:41 . Memory (MB): peak = 780.316 ; gain = 530.215
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 120 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:01:40 ; elapsed = 00:01:53 . Memory (MB): peak = 777.391 ; gain = 213.758
-Synthesis Optimization Complete : Time (s): cpu = 00:02:00 ; elapsed = 00:02:02 . Memory (MB): peak = 777.391 ; gain = 527.770
+Synthesis finished with 0 errors, 0 critical warnings and 97 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:01:12 ; elapsed = 00:01:27 . Memory (MB): peak = 780.316 ; gain = 217.227
+Synthesis Optimization Complete : Time (s): cpu = 00:01:32 ; elapsed = 00:01:42 . Memory (MB): peak = 780.316 ; gain = 530.215
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 678 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 697 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
@@ -707,10 +653,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-124 Infos, 218 Warnings, 1 Critical Warnings and 0 Errors encountered.
+124 Infos, 164 Warnings, 1 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:04 ; elapsed = 00:02:05 . Memory (MB): peak = 777.391 ; gain = 539.293
+synth_design: Time (s): cpu = 00:01:36 ; elapsed = 00:01:46 . Memory (MB): peak = 780.316 ; gain = 542.316
 INFO: [Common 17-1381] The checkpoint 'E:/CPU/SingleCycleCPU2/SingleCycleCPU2.runs/synth_1/MainCPU.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file MainCPU_utilization_synth.rpt -pb MainCPU_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 777.391 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Mon Nov 20 21:02:42 2017...
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.173 . Memory (MB): peak = 780.316 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Tue Nov 21 23:42:33 2017...

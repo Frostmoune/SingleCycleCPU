@@ -32,7 +32,8 @@ end
 
 always @(posedge CLK or negedge Reset)
 begin
-    if(Reset==0)IAddr<=0;
-    else if(PCWre==1)IAddr<=NextPC;
+    if(Reset==0)IAddr<=32'hFFFFFFFC;
+    else if(PCWre==1||NextPC==0)IAddr<=NextPC;
+    //else IAddr<=32'bz;
 end
 endmodule

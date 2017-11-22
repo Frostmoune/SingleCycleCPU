@@ -1,7 +1,7 @@
 Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -----------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2017.3 (win64) Build 2018833 Wed Oct  4 19:58:22 MDT 2017
-| Date         : Mon Nov 20 21:04:19 2017
+| Date         : Tue Nov 21 23:44:18 2017
 | Host         : LAPTOP-OE4TGRGL running 64-bit major release  (build 9200)
 | Command      : report_timing_summary -file MainCPU_timing_summary_routed.rpt -warn_on_violation -rpx MainCPU_timing_summary_routed.rpx
 | Design       : MainCPU
@@ -56,7 +56,7 @@ Table of Contents
 
  There are 3 register/latch pins with no clock driven by root clock pin: myclock/wires_reg[17]/Q (HIGH)
 
- There are 1493 register/latch pins with no clock driven by root clock pin: mykey/led_reg/Q (HIGH)
+ There are 1517 register/latch pins with no clock driven by root clock pin: mykey/led_reg/Q (HIGH)
 
 
 2. checking constant_clock
@@ -71,7 +71,7 @@ Table of Contents
 
 4. checking unconstrained_internal_endpoints
 --------------------------------------------
- There are 3040 pins that are not constrained for maximum delay. (HIGH)
+ There are 3112 pins that are not constrained for maximum delay. (HIGH)
 
  There are 0 pins that are not constrained for maximum delay due to constant clock.
 
